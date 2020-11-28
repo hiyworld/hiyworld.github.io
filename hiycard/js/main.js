@@ -3,6 +3,6 @@ window.onload = () => {
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker
-             .register('../sw.js');
+             .register('https://hiyworld.github.io/hiycard/sw.js');
   }
 }
